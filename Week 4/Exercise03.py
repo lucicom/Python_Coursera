@@ -15,5 +15,7 @@ def combine_lists(list1, list2):
 
 Jamies_list = ["Alice", "Cindy", "Bobby", "Jan", "Peter"]
 Drews_list = ["Mike", "Carol", "Greg", "Marcia"]
+Drews_list.reverse()
 
-print(combine_lists(Jamies_list, Drews_list))
+#print(combine_lists(Jamies_list, Drews_list))
+print(Jamies_list + Drews_list)
